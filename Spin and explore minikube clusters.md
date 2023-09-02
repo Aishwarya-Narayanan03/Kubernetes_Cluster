@@ -21,5 +21,10 @@ It helps to look at our nodes with the role of control plane and the Kubernetes 
 The namespaces that get created by default, it shows the kube-node-lease, kube-public, and kube-system. Namespaces are way to isolate and manage applications and services. 
 
 
+ `kubectl get pods -A`
+ Pods that get installed when we spin up the minikube cluster.  `-A` helps to see pods in every namespace. These pods are how containers run in Kubernetes.
 
+
+  `kubectl get services -A`
+Services acts as the load balancers within the clusters and direct traffic to pods. 
 
