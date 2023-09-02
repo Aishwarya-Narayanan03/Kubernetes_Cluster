@@ -3,3 +3,4 @@ Minikube is local Kubernetes, focusing on making it easy to learn and develop fo
 
 
 
+[!kubectl cluster-info]
