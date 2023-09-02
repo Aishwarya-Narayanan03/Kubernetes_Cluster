@@ -1,3 +1,0 @@
- `kubecnt cluster-info` ok
-
-
